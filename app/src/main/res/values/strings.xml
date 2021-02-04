@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Swap</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="text_sign_up">create account</string>
+    <string name="name">Name</string>
+    <string name="sign_up_but">Sign up</string>
+</resources>

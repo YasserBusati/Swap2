@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADA39D"
+    android:orientation="vertical"
+    tools:context=".IntroActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/swap_text"
+        />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/haeder_intro" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="this is our app"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#3F80AD"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="here is some describtion about our work"
+        android:textSize="20sp"
+        />
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:textColor="#fff"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#3B0CAD"
+        android:layout_gravity="center_horizontal"
+        android:text="SIGN UP"/>
+
+
+
+</LinearLayout>

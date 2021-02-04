@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margint_left">40dp</dimen>
+    <dimen name="margint_top">20dp</dimen>
+    <dimen name="cardview_margint">60dp</dimen>
+</resources>
